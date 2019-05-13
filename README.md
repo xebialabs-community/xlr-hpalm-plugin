@@ -36,6 +36,10 @@ Per the configuration at `src/test/resources/docker/docker-compose.yml,` the por
 http://localhost:35516
 ``` 
 
+## Updating the dependencies.
+
+Run this command to find the latest versions of plugin dependencies in the build.gradle file:
+`./gradlew dependencyUpdate -Drevision=release`
 
 ## Overview
 
