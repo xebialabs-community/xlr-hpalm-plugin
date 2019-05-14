@@ -24,6 +24,14 @@ Per the configuration at `src/test/resources/docker/docker-compose.yml,` the por
 
 `http://localhost:35516` 
 
+## Updating plugin dependenices
+
+You can check the latest versions of plugins by running this gradle target:
+
+`./gradlew dependencyUpdate -Drevision=release`
+
+At present, this plugin can support nebula through version 8.0, and will need some rework to support 9.x and beyond.
+
 ## Overview
 
 ### Features
